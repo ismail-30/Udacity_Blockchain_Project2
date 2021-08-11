@@ -5,10 +5,42 @@
 This Starter Code has already implemented the functionalities you implemented in the StarNotary (Version 2) exercise, and have comments in all the files you need to implement your tasks.
 
 ### Project Info
-Truffle version : Truffle v5.0.2
-ERC-721 Token Name : Awesome Star
-ERC-721 Token Symbol : AWST
-OpenZeppelin version : 2.3.0
+```bash
+**Node version** : v12.0.0
+**Truffle version** : Truffle v5.0.2
+**ERC-721 Token Name** : Awesome Star
+**ERC-721 Token Symbol** : AWST
+**OpenZeppelin version** : 2.3.0
+```
+
+### Contract deployment on Rinkeby
+```bash
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StarNotary'
+   ----------------------
+   > transaction hash:    0xc350a064f318a3a940bab61628818b482e1785c832a66853eee2f558539aaa9e
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 8
+   > contract address:    0xDf936bD12f42ca79A331AD69b1DDb33e6026d324
+   > account:             0x72a9Dd6E10e9F94da7bc1538AF319fE7b9477c73
+   > balance:             2.97477959
+   > gas used:            2276117
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02276117 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.02276117 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.02522041 ETH
+```
 
 ### Dependencies
 For this project, you will need to have:
